@@ -1,0 +1,14 @@
+> python -m coverage erase
+
+> python -m coverage run --branch --source=airline_baggage -m pytest -q BranchCoverageTest_28_airline_baggage.py
+
+.....................                                                    [100%]
+21 passed in 0.05s
+
+> python -m coverage report -m
+
+Name                 Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------
+airline_baggage.py      37      0     26      0   100%
+----------------------------------------------------------------
+TOTAL                   37      0     26      0   100%
